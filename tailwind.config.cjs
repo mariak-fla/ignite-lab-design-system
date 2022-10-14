@@ -26,15 +26,33 @@ module.exports = {
         100: '#e1e1e6',
       },
 
-      cyan: {
-        500: '#81D8F7',
-        300: '#AADAEC',
+      indigo: {
+        500: "#6366f1",
+      },
+
+      purple: {
+        500: "#a855f7",
+      },
+
+      pink: {
+        500: "#ec4899",
+      },
+
+
+      green: {
+        500: '#34EF23',
+        300: '#7CFF71',
       },
     },
     extend: {
       fontFamily: {
         sans: 'inter, sans-serif'
-      }
+      },
+      transitionDuration: {
+        '0': '0s',
+        '200': '200ms',
+        '300': '300ms',
+      },
     },
   },
   plugins: [],

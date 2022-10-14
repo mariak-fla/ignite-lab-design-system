@@ -1,4 +1,4 @@
-import { Envelope, Key, Lock } from 'phosphor-react';
+import { Brain, Envelope, Key, Lock } from 'phosphor-react';
 import { Button } from './components/Button';
 import { Checkbox } from './components/Checkbox';
 import { Heading } from './components/Heading';
@@ -15,7 +15,7 @@ export function App() {
         <Logo />
         
         <Heading size="lg" className="mt-4">
-          Beyond<span className="text-cyan-500">.</span>
+          Beyond<span className="text-green-500">.</span>
         </Heading>
         
         <Text size="lg" className="text-gray-400 mt-1">
@@ -24,6 +24,16 @@ export function App() {
       </header>
 
       <form className="flex flex-col gap-4 items-stretch w-full max-w-sm mt-10">
+        <label htmlFor="autologin" className="flex flex-col gap-3">
+        <Text className="font-semibold">Auto-login</Text>
+          <button className="flex w-full h-12 rounded px-4 items-center place-items-center gap-4 bg-green-300 hover:bg-[#a855f7] text-gray-800 text-xs font-semibold focus:ring-2 ring-white">
+          <Brain className="w-6 h-6"/>
+          Login with BRAIN-UPLOAD™
+          </button>
+        </label>
+
+        <Text className="font-semibold text-center"><span className="text-green-500">•••</span> OR <span className="text-green-500">•••</span></Text>
+
         <label htmlFor="email" className="flex flex-col gap-3">
           <Text className="font-semibold">E-mail address</Text>
           <TextInput.Root>
@@ -51,10 +61,10 @@ export function App() {
           <Text size="sm" className="text-gray-200">I accept terms and conditions</Text>
         </label>
 
-        <Button type="submit" className="mt-4">Take me!</Button>
+        <Button type="submit" className="mt-4 rounded-full">Take me!</Button>
       </form>
 
-      <footer className="flex flex-col items-center gap-4 mt-8">
+      <footer className="flex flex-col items-center gap-2 mt-8">
         <Text asChild size="sm">
         <a href="" className="text-gray-400 underline hover:text-cyan-300">Forgot your password?</a>
         </Text>
