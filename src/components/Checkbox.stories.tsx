@@ -12,7 +12,7 @@ export default {
             return (
                 <div className="flex items-center gap-2">
                     {Story()}
-                    <Text size="sm">Aceito os termos e condições de uso.</Text>
+                    <Text size="sm">I accept terms and conditions</Text>
                 </div>
             )
         }

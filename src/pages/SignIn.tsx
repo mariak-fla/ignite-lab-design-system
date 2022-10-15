@@ -71,7 +71,7 @@ export function SignIn () {
     <Text size="sm" className="text-gray-200">I accept terms and conditions</Text>
   </label>
 
-  <Button type="submit" className="mt-4 rounded-full">Take me!</Button>
+  <Button type="submit" className="mt-4" id="submit">Take me!</Button>
 </form>
 
 <footer className="flex flex-col items-center gap-2 mt-8">
