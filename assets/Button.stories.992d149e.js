@@ -1,0 +1,2 @@
+import{B as t}from"./Button.925a3d33.js";import"./index.module.232c9897.js";import"./index.9e2ae8b3.js";import"./iframe.3017726b.js";import"./clsx.m.256e9345.js";import"./jsx-runtime.4f780206.js";const p={title:"Components/Button",component:t,args:{children:"Take me!",size:"md"},argTypes:{}},i={},a=["Default"];export{i as Default,a as __namedExportsOrder,p as default};
+//# sourceMappingURL=Button.stories.992d149e.js.map
